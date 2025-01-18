@@ -1,0 +1,59 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+.game {
+    text-align: center;
+}
+
+.card {
+    width: 100px;
+    height: 100px;
+    background-color: #dae3f3;
+    display: inline-block;
+    border: 1.5px solid black;
+}
+
+.hidden {
+    display: none;
+}
+
+h1 {
+    color: orange;
+    margin: 2px 0;
+}
+
+.player-status {
+    display: inline-block;
+    margin: 5px;
+}
+
+#score {
+    font-weight: bold;
+    font-size: 18px;
+}
+
+.btns {
+    display: inline-block;
+}
+
+.btns > * {
+    color: orange;
+    font-size: 17px;
+    font-weight: bold;
+    background-color: #dae3f3;
+    border: none;
+    border-radius: 7px;
+    margin: 2px 5px;
+    height: 40px;
+    cursor: pointer;
+}
+
+#submit {
+    width: 80px;
+}
+
+#reset {
+    width: 160px;
+}
